@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout for a single list item that displays an opencode of a date -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeightSmall"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textv_opencode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:textSize="16sp"
+        tools:text="3 4 2 7 0 7 1" />
+    <TextView
+        android:id="@+id/textv_opendate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:textSize="16sp"
+        tools:text="2017-06-20" />
+    <TextView
+        android:id="@+id/textv_openweekday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:textSize="16sp"
+        tools:text="Thu" />
+
+</LinearLayout>
